@@ -5,3 +5,6 @@ Interfaz Simple, Flexibilidad en la operatoria, Facil Instalacion del producto d
 ## Link al Tablero
 (https://trello.com/b/kQsw0ZKK/salesmanager)
 
+## Link al Drive
+(https://drive.google.com/drive/folders/11NFHXxYCEXHq2xWug5Eyl0dzxTcTBsaD)
+
