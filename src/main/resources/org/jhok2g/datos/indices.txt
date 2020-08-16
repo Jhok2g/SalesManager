@@ -1,0 +1,26 @@
+CREATE UNIQUE INDEX idx_EMails
+ON CLIENTE(email);
+
+CREATE INDEX idx_Ubicacion
+ON CLIENTE(ciudad, calleDom);
+
+CREATE UNIQUE INDEX idx_TipoNro
+ON DOC_LEGAL(tipo, nroDoc);
+
+CREATE INDEX idx_FechaEmit
+ON DOC_LEGAL(emisionFecha);
+
+CREATE INDEX idx_FactPagada
+ON PAGA_FACT(idFactura);
+
+CREATE INDEX idx_DocAplicado
+ON NOTA_CRED_DEB(docAplicado);
+
+CREATE INDEX idx_Nota
+ON EN_FUNCION_DE_PROD(idNota);
+
+CREATE INDEX idx_FactProds
+ON COMPRA_PROD(idFact);
+
+CREATE INDEX idx_Prov
+ON PROVEE(idProv);
